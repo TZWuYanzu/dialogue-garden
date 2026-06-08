@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+.venv/
+venv/
+store/*.db-shm
+store/*.db-wal
+
+# XHS project
+xhs/MediaCrawler/
+xhs/cache/
+xhs/.env

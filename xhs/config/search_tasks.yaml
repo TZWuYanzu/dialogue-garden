@@ -1,0 +1,55 @@
+domains:
+  - name: hiking
+    label: 徒步
+    keywords:
+      - 徒步
+      - 登山
+      - 户外徒步
+      - 徒步路线
+    tiers:
+      - label: 1k-5k
+        min_followers: 1000
+        max_followers: 5000
+        target_count: 20
+        min_male: 8
+      - label: 5k-10k
+        min_followers: 5000
+        max_followers: 10000
+        target_count: 20
+        min_male: 8
+      - label: 10k+
+        min_followers: 10000
+        max_followers: 100000
+        target_count: 20
+        min_male: 8
+
+  - name: trail_running
+    label: 越野跑
+    keywords:
+      - 越野跑
+      - 山径跑
+      - 越野跑训练
+      - 越野赛
+    tiers:
+      - label: 1k-5k
+        min_followers: 1000
+        max_followers: 5000
+        target_count: 20
+        min_male: 8
+      - label: 5k-10k
+        min_followers: 5000
+        max_followers: 10000
+        target_count: 20
+        min_male: 8
+      - label: 10k+
+        min_followers: 10000
+        max_followers: 100000
+        target_count: 20
+        min_male: 8
+
+settings:
+  max_notes_per_keyword: 50
+  sort_type: popularity_descending
+  enable_comments: false
+  save_format: json
+  sleep_between_requests: 3
