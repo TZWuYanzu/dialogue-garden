@@ -11,3 +11,4 @@ store/*.db-wal
 xhs/MediaCrawler/
 xhs/cache/
 xhs/.env
+xhs/browser_data/
