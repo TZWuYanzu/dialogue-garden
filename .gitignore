@@ -11,4 +11,8 @@ store/*.db-wal
 xhs/MediaCrawler/
 xhs/cache/
 xhs/.env
+.env
 xhs/browser_data/
+
+# Agent knowledge base (runtime data)
+data/knowledge/
